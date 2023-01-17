@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Pagina Producto</title>
+    <script src="https://kit.fontawesome.com/b2e013118b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="img/Sin título-1-2.svg" alt="">
+
+    </header>
+    <div class="container-titulo">
+
+
+        <!---->
+        <div class="container_header">
+            <div class="logo_nike">
+                <img src="img/nike.svg">
+            </div>
+
+
+            <div class="botones_header">
+                <button>Nuevo Lanzamiento</button>
+                <button>Hombres</button>
+                <button>Mujeres</button>
+                <button>Niños</button>
+                <button>Perzonalizados</button>
+            </div>
+                
+
+            <div class="header_search">
+                <input type="text"  value="Buscar" placeholder="Buscar" >
+                <i class="fa-solid fa-magnifying-glass"></i>
+                
+            </div>
+        </div>
+        
+
+
+        <!---->
+    </div>
+    <main>
+        <div class="container-img">
+            <img src="img/jeff-tumale-SD9Jyl1xNQ4-unsplash.jpg" alt="img-producto">
+        </div>
+
+
+        <div class="container-info-product">
+            <div class="container-price">
+                <span>$95.00</span>
+                <i class="fa-solid fa-chevron-right"></i>
+                
+            </div>
+
+            <div class="container-details-product">
+                <div class="form-group">
+                    <label 
+                        for="colour">Color</label>
+                    <select 
+                        name="colour" id="colour">
+                        <option disabled 
+                        selected value="">Escoge una opcion</option>
+                        <option value="rojo">Rojo</option>
+                        <option value="blanco">Blanco</option>
+                        <option value="beige">Beige</option>
+                    </select>  
+                </div>
+
+
+                <div class="form-group">
+                    <label for="size">Talla</label>
+                    <select name="size" id="size">
+                        <option disabled 
+                        selected value="">
+                        Escoge una opcion  
+                        </option>
+                        <option value="cuarenta">40</option>
+                        <option value="cuarenta-dos">42</option>
+                        <option value="cuarenta-tres">43</option>
+                        <option value="cuarenta-cuatro">44</option>
+                    </select>
+                </div>
+                <button 
+                    class="btn-clean">Limpiar</button>
+            </div>
+            
+                                        <!--AQUI container-details-product TERMINA -->
+                                        
+            <div class="container-add-cart">
+                <div class="container-quantity">
+                    <input 
+                        class="input-quantity" 
+                        type="number" 
+                        placeholder="1"
+                        value="1" min="1"
+                    />
+                    
+                    <div class="btn-increment-decrement">
+                    <i class="fa-solid fa-chevron-up" id="increment"></i>
+                    <i class="fa-solid fa-chevron-down" id="decrement"></i>
+                    </div>
+                </div>
+
+                <button class="btn-add-to-cart">Añadir al carrito
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </div>
+
+            <div class="container-description">
+                <div class="title-description">
+                    <h4>Descripcion</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-description ">
+                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptates nulla porro reprehenderit, consequuntur harum qui recusandae, in sed itaque fugiat nemo laudantium! Saepe repellendus neque perferendis ad, deleniti iste.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="container-aditional">
+                <div class="title-aditional">
+                    <h4>Informacion adicional</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-additional hidden">
+                    <p>--------------</p>
+                </div>
+            </div>
+
+            <div class="container-reviews">
+                <div class="title-reviews">
+                    <h4>Reseñas</h4>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="text-reviews hidden">
+                    <p>--------------</p>
+                </div>
+            </div>
+
+            <div class="container-social">
+                <spam>Compartir</spam>
+                <div class="container-buttons-social">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>    
+        </div>
+    </main>
+
+
+    <section class="container-related-products">
+        <h2>Productos relacionados</h2>
+
+        <div class="card-list-products">
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/zapatos2.avif" alt="producto-1">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Nike  -  Roshe Run</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">
+                        $85.00
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/zapatos3.avif" alt="producto-2">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Common Projects - Achilles</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">
+                        $255.00
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/zapatos4.avif" alt="producto-3">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Adidas - Boston Super OG</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">
+                        $105.00
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="img/zapatos5.avif" alt="producto-4">
+                </div>
+                <div class="info-card">
+                    <div class="text-product">
+                        <h3>Common Projects - Achilles</h3>
+                        <p class="category">
+                            Footwear, Sneakers
+                        </p>
+                    </div>
+                    <div class="price">
+                        $250.00
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
